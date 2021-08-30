@@ -1,1 +1,161 @@
+/* css reset */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
 
+
+
+
+html{
+    background-color: #181818;
+}
+.material-icons{
+    height: 24px;
+    width: 24px;
+    font-weight: 100;
+    cursor: pointer;
+}
+
+
+/* nav bar styling */
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 56px;
+    width: 100%;
+    background-color: #202020;
+    color: #ffffff;
+}
+input{
+    height: 26px;
+    width: 566px;
+    border: 1px solid #323232;
+    background-color: #121212;
+    color: #818181;
+    font-size: 16px;
+    font-weight: 400;
+}
+.column.left{
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+    height: 100%;
+    width: 169px;
+}
+.column.left .menu,
+.column.left .logo{
+    margin-left: 10px;
+}
+.column.center{
+    height: 36px;
+    width: 728px;
+}
+.column.center .search{
+    display: flex;
+    align-items: center;
+}
+.column.center .search .searchbox{
+    height: 26px;
+    width: 566px;
+    border: 1px solid #818181;
+}
+.column.center .search .submit-btn{
+    height: 32px;
+    width: 65px;
+}
+.column.right{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-right: 20px;
+    height: 40px;
+    width: 255px;
+}
+.column.right .profile img{
+    height: 32px;
+    width: 32px;
+    border: 0 none;
+    border-radius: 50%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* media styling */
+.media{
+    background-color: #181818;
+    height: 80vh;
+    width: calc(75% - 10px);
+    display: inline-block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* sidebar styling */
+.sidebar{
+    background-color: yellow;
+    height: 200vh;
+    width: calc(25% - 10px);
+    float: right;
+}
